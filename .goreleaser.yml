@@ -112,8 +112,8 @@ kos:
 
 checksum:
   name_template: "checksums.txt"
-snapshot:
-  version_template: "{{ .Tag }}-next"
+#snapshot:
+#  version_template: "{{ .Tag }}-next"
 changelog:
   sort: asc
   filters:
